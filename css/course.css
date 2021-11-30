@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 90vh;
+}
+
+header{
+    background-color: #F13950;
+    height: 100px;
+    margin: 0;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 3px #ffffff;
+    color: cornsilk;
+}
+
+nav{
+    display: flex;
+    background-color: #1C1D1F;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+}
+
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 930px;
+    padding: 10px; 
+}
+
+li{
+    margin: 0 5px;
+}
+
+li a{
+    color: #F2F2F2;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: #FC9223;
+}
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    padding: 50px 20px;
+    display: flex;
+}
+
+.course{
+    width: 100%;
+    margin: 20px 20px;
+}
+
+.course-about{
+    background-color: #1C1D1F;
+    color: #F2F2F2;
+    height: 150px;
+    padding: 22px 24px;
+}
+
+.course-about h4{
+    margin: 12px 0;
+}
+.card-header{
+    font-display: block;
+    border: 1px solid #1C1D1F;
+    margin: 35px 25px;
+}
+
+.card-header ul{
+    display: block;
+    list-style: none;
+}
+
+.card-header p{
+    padding: 10px 10px;
+}
+
+.card-header li{
+    padding: 7px 10px;
+}
+
+.card-body{
+    padding: 10px 20px;
+    display: block;
+}
+
+.card-body ul{
+    display: block;
+    padding: 10px 8px;
+}
+
+aside{
+    width: 356px;
+    background-color: #FC9223;
+    margin: 69px auto;
+    border-radius: 7px;
+}
+
+.video{
+    margin: 20px 10px;
+}
+
+.formulario{
+    background-color: #1C1D1F;
+    border: 1px solid #F2F2F2;
+    border-radius: 5px;
+    margin: 10px 10px;
+    height: 260px;
+    color: #F2F2F2;
+}
+
+.form-element{
+    border-radius: 5px;
+}
+
+.name{
+    margin: 0 18px;
+    padding: 0 0 16px 18px;
+}
+
+.email{
+    padding: 0 0 16px 18px;
+    margin: 0 34px; 
+}
+
+.msg{
+    padding: 0 0 10px 28px;
+    margin: 0 18px; 
+}
+
+.related-course{
+    display: flex;
+    margin: 25px;
+}
+
+.related-title{
+    margin: 15px 20px;
+}
+
+.related-course img{
+    width: 16%;
+    height: 90px;
+}
+
+.related-description{
+    display: block;
+    margin: 0 5px;
+}
+
+form{
+    color: #F2F2F2;
+    height: 100%
+}
+
+.form-group{
+    display: flex;
+    padding: 12px 8px;
+}
+
+button{
+    margin: 0 auto;
+    padding: 8px 25px;
+}
+
+footer{
+    height: 100px;
+    background-color: #1C1D1F;
+    color: whitesmoke;
+}
+
+footer p{
+    padding: 26px 32px;
+}

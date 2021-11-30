@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2F2F2;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 90vh;
+}
+
+header{
+    background-color: #F13950;
+    height: 80px;
+    margin: 0;
+    width: 100%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 3px #ffffff;
+    color: cornsilk;
+}
+
+nav{
+    display: flex;
+    background-color: #1C1D1F;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 35px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    margin-left: 930px; 
+    padding: 10px;
+}
+
+li{
+    margin: 0 5px;
+}
+
+li a{
+    color: #F2F2F2;
+}
+
+li a:hover{
+    color: #FC9223;
+}
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    display: flex;
+}
+
+.content{
+    
+    display: block;
+    width: 85%;
+    padding: 50px 80px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.card{
+   display: flex;
+   padding: 5px 15px;
+   margin: 3px 20px;
+   background-color: #FFFFFF;
+   width: 50%;
+}
+
+aside{
+    width: 360px;
+    background-color: #FC9223;
+    margin: 15px auto;
+    border-radius: 7px;
+}
+
+.testimonials{
+    width: 100%;
+    border-radius: 6px;
+}
+.sidebar-content{
+    width: 300px;
+    height: 290px;
+    padding-left: 25px;
+}
+
+.info{
+    display: block;
+}
+
+.courses{
+    display: flex;
+    padding: 6px 14px;
+}
+
+.course-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.comment{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin: 155px -260px;
+    position: absolute;
+    z-index: 2;
+}
+.text{
+    margin: 18px 0;
+    color: whitesmoke;
+}
+
+.title{
+    color: black;
+    padding: 10px 22px;
+    font-weight: 600;
+}
+
+.alumno{
+   font-weight: 600;
+   color: black;
+   padding: 8px 8px 0;
+}
+
+footer{
+    height: 100px;
+    background-color: #1C1D1F;
+    color: whitesmoke;
+}
+
+footer p{
+   padding: 26px 32px;
+}
